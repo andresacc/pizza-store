@@ -1,0 +1,11 @@
+Start up the cluster:
+    docker compose up -d
+
+Check brokers are alive:
+    curl localhost:8082/brokers
+
+Create topics:
+    kafka-topics.sh --create --bootstrap-server localhost:9092 --partitions 4 --topic NewOrders
+    kafka-topics.sh --create --bootstrap-server localhost:9092 --partitions 4 --topic InProcessOrders
+
+
