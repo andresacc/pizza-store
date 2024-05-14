@@ -1,0 +1,19 @@
+{
+  "fields": [
+    {
+      "name": "pizzaStyle",
+      "type": "string"
+    },
+    {
+      "name": "size",
+      "type": "string"
+    },
+    {
+      "name": "email",
+      "type": "string"
+    }
+  ],
+  "name": "NewOrder",
+  "namespace": "com.example.PizzaStore.model",
+  "type": "record"
+}

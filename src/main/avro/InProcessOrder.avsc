@@ -1,0 +1,31 @@
+{
+  "fields": [
+    {
+      "name": "pizzaStyle",
+      "type": "string"
+    },
+    {
+      "name": "size",
+      "type": "string"
+    },
+    {
+      "name": "email",
+      "type": "string"
+    },
+    {
+      "name": "price",
+      "type": "double"
+    },
+    {
+      "name": "paymentLink",
+      "type": "string"
+    },
+    {
+      "name": "orderId",
+      "type": "string"
+    }
+  ],
+  "name": "InProcessOrder",
+  "namespace": "com.example.PizzaStore.model",
+  "type": "record"
+}

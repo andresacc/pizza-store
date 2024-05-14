@@ -1,0 +1,2 @@
+https://www.confluent.io/blog/kafka-client-cannot-connect-to-broker-on-aws-on-docker-etc/
+P0STGRES576!
