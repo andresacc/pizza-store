@@ -14,6 +14,7 @@ public class OrderController {
 
     @PostMapping(path = "create")
     public ResponseEntity<?> create(@RequestBody NewOrder order){
+        //INSERT ORDER INTO NEW-ORDERS TOPIC
         return ResponseEntity.ok(Map.of("message", "The order was created successfully","created", order));
     }
 

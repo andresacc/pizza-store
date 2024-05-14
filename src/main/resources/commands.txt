@@ -8,4 +8,15 @@ Create topics:
     kafka-topics.sh --create --bootstrap-server localhost:9092 --partitions 4 --topic NewOrders
     kafka-topics.sh --create --bootstrap-server localhost:9092 --partitions 4 --topic InProcessOrders
 
+Create config topics:
+    kafka-topics.sh --create --bootstrap-server localhost:9092 --topic kafka_connect_configs --config cleanup.policy=compact
+    kafka-topics.sh --create --bootstrap-server localhost:9092 --topic kafka_connect_offsets --config cleanup.policy=compact
+    kafka-topics.sh --create --bootstrap-server localhost:9092 --topic kafka_connect_statuses --config cleanup.policy=compact
+
+Run Kafka connect in distributed mode:
+    connect-distributed.sh worker.properties
+
+
+
+
 
